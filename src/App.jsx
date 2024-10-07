@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <div className="appContainer">
         <h1 className="appTitle">Mobile Phones</h1>
         <div className="cardRow">
