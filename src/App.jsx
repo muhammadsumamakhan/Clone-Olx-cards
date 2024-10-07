@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <Navbar />  // Only one Navbar component now
+      <Navbar /> 
       <div className="appContainer">
         <h1 className="appTitle">Mobile Phones</h1>
         <div className="cardRow">
@@ -26,9 +26,9 @@ function App() {
 
         <h1 className="appTitle">Bikes & Motorcycles</h1>
         <div className="cardRow">
-          <Card img="https://images.olx.com.pk/thumbnails/487901190-800x600.webp" price="470,000" description="Kawasaki Ninja replica 2019 model" location="9th Avenue, Islamabad" time="3 days ago"/>
-          <Card img="https://images.olx.com.pk/thumbnails/488954686-800x600.webp" price="52,000" description="ZMCO Bike RP - 70 Model 2015 " location="Commercial Market, Rawalpindi" time="5 days ago"/>
-          <Card img="https://images.olx.com.pk/thumbnails/349730090-800x600.webp" price="1,250,000" description="Chopper 400cc water cool" location="Commercial Market, Rawalpindi" time="13 days ago"/>
+          <Card img="https://images.olx.com.pk/thumbnails/487901190-800x600.webp" price="470,000" description="Kawasaki Ninja replica 2019 model" location="9th Avenue, Islamabad" time="3 days ago"/>  {/* Corrected: Unique Kawasaki Ninja card */}
+          <Card img="https://images.olx.com.pk/thumbnails/488954686-800x600.webp" price="52,000" description="ZMCO Bike RP - 70 Model 2015" location="Commercial Market, Rawalpindi" time="5 days ago"/>
+          <Card img="https://images.olx.com.pk/thumbnails/349730090-800x600.webp" price="1,250,000" description="Chopper 400cc water cool" location="Commercial Market, Rawalpindi" time="13 days ago"/>  {/* Corrected: Unique Chopper 400cc card */}
           <Card img="https://images.olx.com.pk/thumbnails/490594178-800x600.webp" price="270,000" description="Suzuki GS 150 2019 Model" location="I-8, Islamabad" time="10 days ago"/>
         </div>
       </div>
